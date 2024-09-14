@@ -1,0 +1,86 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: plum;
+}
+
+header {
+    background-color: sandybrown;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#home h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: palevioletred;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: paleturquoise;
+    font-size: 35px;
+}
+
+.contact-links {
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: khaki;
+    border-radius: 6px;
+}
+
+.contact-links a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.contact-links a i {
+    margin-right: 10px;
+}
+
+.contact-links a:hover {
+    color: #25D366; 
+}
+
+.contact-links a:hover .fa-instagram {
+    color: #E4405F; 
+}
+
+
+footer {
+    text-align: center;
+    background-color: sandybrown;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
